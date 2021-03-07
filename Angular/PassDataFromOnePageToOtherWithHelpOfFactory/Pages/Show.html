@@ -1,0 +1,17 @@
+﻿
+<div ng-controller="showCtrl">
+    <table border="1">
+        <tr>
+            <td>Name</td>
+            <td>Address</td>
+            <td>Email</td>
+            <td></td>
+        </tr>
+        <tr ng-repeat="data in Students">
+            <td>{{data.Name}}</td>
+            <td>{{data.Address}}</td>
+            <td>{{data.Email}}</td>
+            <td><a href="#" ng-click="Edit(data)">Edit</a></td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,13 @@
+ul {
+		background-color: #3399FF;
+		margin: 0;
+	}
+	li {
+		display: inline-block;	
+		font-size: 18px;
+		padding: 18px;
+	}
+	li a {
+		text-decoration: none;
+		color: white;
+	}
